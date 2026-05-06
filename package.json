@@ -1,0 +1,22 @@
+{
+  "name": "todo-en-asfalto-de-leon",
+  "version": "1.0.0",
+  "description": "Aplicación web para TODO EN ASFALTO DE LEÓN - Servicios de asfaltado, reparación y maquinaria",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "asfalto",
+    "construccion",
+    "reparacion",
+    "maquinaria",
+    "leon"
+  ],
+  "author": "TODO EN ASFALTO DE LEÓN",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

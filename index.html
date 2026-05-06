@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; form-action 'self' https://formsubmit.co;">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  
+  <!-- Meta tags para PWA y Mobile -->
+  <meta name="theme-color" content="#ffd600">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Asfalto León">
+  <meta name="application-name" content="TODO EN ASFALTO DE LEÓN">
+  <meta name="msapplication-TileColor" content="#ffd600">
+  <meta name="msapplication-config" content="/browserconfig.xml">
+  
+  <!-- SEO y Open Graph -->
+  <meta name="description" content="Servicios profesionales de asfaltado, reparación y maquinaria en República Dominicana. 18 años de experiencia, calidad garantizada.">
+  <meta name="keywords" content="asfalto, asfaltado, reparación de asfalto, maquinaria, construcción, República Dominicana, Santo Domingo Norte">
+  <meta name="author" content="TODO EN ASFALTO DE LEÓN">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://todo-en-asfalto-leon.com/">
+  <meta property="og:title" content="TODO EN ASFALTO DE LEÓN - Servicios Profesionales de Asfaltado">
+  <meta property="og:description" content="Servicios profesionales de asfaltado, reparación y maquinaria en República Dominicana. 18 años de experiencia.">
+  <meta property="og:image" content="/og-image.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://todo-en-asfalto-leon.com/">
+  <meta property="twitter:title" content="TODO EN ASFALTO DE LEÓN">
+  <meta property="twitter:description" content="Servicios profesionales de asfaltado, reparación y maquinaria">
+  <meta property="twitter:image" content="/og-image.png">
+  
+  <!-- Manifest y Service Worker -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" sizes="72x72" href="icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="icon-96x96.png">
+  <link rel="apple-touch-icon" sizes="128x128" href="icon-128x128.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="icon-192x192.png">
+  <link rel="apple-touch-icon" sizes="384x384" href="icon-384x384.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="icon-512x512.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icon-16x16.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  
+  <title>TODO EN ASFALTO DE LEÓN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true">
+    <span class="scroll-progress__bar"></span>
+  </div>
+
+  <div class="owner-badge" aria-label="Propietario de la empresa">
+    <img src="Cesar.png" alt="Propietario de la empresa" class="owner-badge__img">
+    <div class="owner-badge__content">
+      <span class="owner-badge__title">Propietario</span>
+      <span class="owner-badge__subtitle">de la empresa</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="inicio" data-reveal>
+    <p class="eyebrow">Asfalto, reparacion y maquinaria</p>
+    <h1>TODO EN ASFALTO DE LEÓN</h1>
+    <p>Calidad, respuesta rapida y terminaciones firmes para calles, patios, entradas y proyectos viales.</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Principal">
+    <a href="#inicio" class="is-active">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#maquinaria">Maquinaria</a>
+    <a href="#calculadora">Calculadora</a>
+    <a href="#formulario-cita">Cita</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#galeria">Galería</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#fundadores">Fundadores</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section class="hero" data-reveal>
+      <div class="hero__content">
+        <p class="eyebrow">Asfalto que aguanta el ritmo del dia a dia</p>
+        <h2>Expertos en asfaltado, mantenimiento y alquiler de maquinaria</h2>
+        <p>Construcci&oacute;n, mantenimiento y reparaci&oacute;n de carreteras y pavimentos con atenci&oacute;n cercana, equipos listos y soluciones hechas a la medida del proyecto.</p>
+        <div class="hero__actions">
+          <a href="#formulario-cita" class="hero-button">Agendar una cita</a>
+          <a href="#calculadora" class="hero-button hero-button--ghost">Calcular presupuesto</a>
+        </div>
+        <div class="hero__chips" aria-label="Ventajas">
+          <span>Visita de evaluacion</span>
+          <span>Respuesta comercial rapida</span>
+          <span>Equipo para obras grandes y pequenas</span>
+        </div>
+      </div>
+      <aside class="hero__panel" aria-label="Puntos destacados">
+        <h3>Hoy podemos ayudarte con</h3>
+        <ul>
+          <li>Asfaltado completo de patios, calles y accesos.</li>
+          <li>Reparacion de grietas, baches y zonas desgastadas.</li>
+          <li>Sellado protector para extender la vida del pavimento.</li>
+          <li>Alquiler de maquinaria para proyectos de asfalto.</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="section stats" aria-label="Indicadores">
+      <article class="stat-card" data-reveal>
+        <span class="stat-number" data-counter="18">0</span>
+        <span class="stat-label">a&ntilde;os de experiencia acumulada</span>
+      </article>
+      <article class="stat-card" data-reveal>
+        <span class="stat-number" data-counter="320">0</span>
+        <span class="stat-label">proyectos atendidos</span>
+      </article>
+      <article class="stat-card" data-reveal>
+        <span class="stat-number" data-counter="24">0</span>
+        <span class="stat-label">horas para responder solicitudes</span>
+      </article>
+      <article class="stat-card" data-reveal>
+        <span class="stat-number" data-counter="6">0</span>
+        <span class="stat-label">tipos de equipos disponibles</span>
+      </article>
+    </section>
+
+    <section id="calculadora" class="section calculator-section" data-reveal>
+      <div class="section-heading">
+        <p class="eyebrow">Herramienta interactiva</p>
+        <h2>Calcula una idea inicial de tu proyecto</h2>
+        <p>Mueve los controles y obt&eacute;n una estimaci&oacute;n orientativa al instante para hablar con nosotros con m&aacute;s claridad.</p>
+      </div>
+
+      <div class="calculator">
+        <form id="estimador-form" class="calculator-form">
+          <label class="calculator-field">
+            <span>Tipo de trabajo</span>
+            <select id="tipo-trabajo" name="tipo_trabajo">
+              <option value="asfaltado">Asfaltado completo</option>
+              <option value="reparacion">Reparacion y bacheo</option>
+              <option value="sellado">Sellado protector</option>
+            </select>
+          </label>
+
+          <label class="calculator-field calculator-field--range">
+            <span>Metros cuadrados aproximados</span>
+            <input type="range" id="area" name="area" min="50" max="2000" step="10" value="250">
+            <div class="range-readout">
+              <strong id="area-value">250 m2</strong>
+              <span>Desliza para ajustar el tamano del area</span>
+            </div>
+          </label>
+
+          <label class="calculator-field">
+            <span>Tiempo de ejecucion</span>
+            <select id="urgencia" name="urgencia">
+              <option value="normal">Normal</option>
+              <option value="programado">Proyecto programado</option>
+              <option value="urgente">Urgente</option>
+            </select>
+          </label>
+
+          <label class="calculator-check">
+            <input type="checkbox" id="incluye-sellado" name="incluye_sellado">
+            <span>Agregar sellado protector</span>
+          </label>
+
+          <label class="calculator-check">
+            <input type="checkbox" id="alquiler-maquinaria" name="alquiler_maquinaria">
+            <span>Necesito alquiler de maquinaria</span>
+          </label>
+        </form>
+
+        <aside class="calculator-result" aria-live="polite">
+          <p class="estimate-tag">Estimacion orientativa</p>
+          <h3 id="estimate-range">RD$ 0 - RD$ 0</h3>
+          <p id="estimate-service">Selecciona las opciones para ver una recomendacion inicial.</p>
+          <div class="estimate-points">
+            <div>
+              <span>Superficie</span>
+              <strong id="estimate-area">250 m2</strong>
+            </div>
+            <div>
+              <span>Tiempo</span>
+              <strong id="estimate-time">Normal</strong>
+            </div>
+            <div>
+              <span>Acabado</span>
+              <strong id="estimate-extra">Sin extras</strong>
+            </div>
+          </div>
+          <p class="estimate-note">La cifra es una referencia rapida. El valor final depende de la inspeccion, acceso al area y estado del terreno.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="formulario-cita" class="section form-section" data-reveal>
+      <div class="section-heading">
+        <p class="eyebrow">Contacto directo</p>
+        <h2>Agenda tu cita</h2>
+        <p>Completa tus datos, guarda tu avance automaticamente y env&iacute;a la solicitud cuando est&eacute; lista.</p>
+      </div>
+
+      <form id="cita-form" action="https://formsubmit.co/daviddeleonpina@gmail.com" method="POST" novalidate>
+        <input type="hidden" name="_subject" value="Nueva solicitud de cita - TODO EN ASFALTO DE LEON">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" id="estimacion-hidden" name="estimacion_aproximada" value="">
+
+        <div class="form-row">
+          <label class="form-group">
+            <span>Nombre</span>
+            <input type="text" id="nombre" name="nombre" autocomplete="given-name" required>
+            <small class="form-error" id="nombre-error" aria-live="polite"></small>
+          </label>
+          <label class="form-group">
+            <span>Apellido</span>
+            <input type="text" id="apellido" name="apellido" autocomplete="family-name" required>
+            <small class="form-error" id="apellido-error" aria-live="polite"></small>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label class="form-group">
+            <span>Correo electronico</span>
+            <input type="email" id="correo" name="correo" autocomplete="email" required>
+            <small class="form-error" id="correo-error" aria-live="polite"></small>
+          </label>
+          <label class="form-group">
+            <span>Telefono</span>
+            <input type="tel" id="telefono" name="telefono" autocomplete="tel" inputmode="tel" pattern="[0-9 +()-]{7,18}" required>
+            <small class="form-error" id="telefono-error" aria-live="polite"></small>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label class="form-group">
+            <span>Servicio de interes</span>
+            <select id="servicio" name="servicio" required>
+              <option value="">Selecciona una opcion</option>
+              <option value="Asfaltado completo">Asfaltado completo</option>
+              <option value="Reparacion y bacheo">Reparacion y bacheo</option>
+              <option value="Sellado protector">Sellado protector</option>
+              <option value="Alquiler de maquinaria">Alquiler de maquinaria</option>
+            </select>
+            <small class="form-error" id="servicio-error" aria-live="polite"></small>
+          </label>
+          <label class="form-group">
+            <span>Fecha deseada</span>
+            <input type="date" id="fecha" name="fecha_deseada" required>
+            <small class="form-error" id="fecha-error" aria-live="polite"></small>
+          </label>
+        </div>
+
+        <label class="form-group">
+          <span>Cu&eacute;ntanos sobre el proyecto</span>
+          <textarea id="mensaje" name="mensaje" rows="5" maxlength="240" placeholder="Ejemplo: patio residencial de 300 m2, con grietas y necesidad de sellado."></textarea>
+          <div class="form-meta">
+            <small class="form-error" id="mensaje-error" aria-live="polite"></small>
+            <span id="mensaje-count">0/240</span>
+          </div>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-yellow" id="submit-button">Enviar solicitud</button>
+          <p id="form-status" class="form-status" aria-live="polite">Tu informacion se guarda automaticamente en este navegador mientras completas el formulario.</p>
+        </div>
+      </form>
+    </section>
+
+    <section id="servicios" class="section" data-reveal>
+      <div class="section-heading">
+        <p class="eyebrow">Servicios principales</p>
+        <h2>Nuestros servicios</h2>
+        <p>Haz clic en cada tarjeta para descubrir en qu&eacute; situaciones conviene cada servicio.</p>
+      </div>
+
+      <div class="services">
+        <article class="card interactive-card">
+          <div class="card__header">
+            <h3>Asfaltado</h3>
+            <span class="card-tag">Instalacion</span>
+          </div>
+          <p>Instalaci&oacute;n profesional de asfalto para calles, patios, parqueos y carreteras.</p>
+          <button type="button" class="card-toggle" aria-expanded="false">Ver detalles</button>
+          <div class="card-details" hidden>
+            <p>Ideal para superficies nuevas o renovaciones completas donde se necesita una base uniforme y resistente.</p>
+          </div>
+        </article>
+
+        <article class="card interactive-card">
+          <div class="card__header">
+            <h3>Reparacion</h3>
+            <span class="card-tag">Mantenimiento</span>
+          </div>
+          <p>Reparaci&oacute;n de grietas, baches y correcci&oacute;n de zonas desgastadas.</p>
+          <button type="button" class="card-toggle" aria-expanded="false">Ver detalles</button>
+          <div class="card-details" hidden>
+            <p>Buena opcion cuando el pavimento aun puede recuperarse con intervenciones puntuales y refuerzo local.</p>
+          </div>
+        </article>
+
+        <article class="card interactive-card">
+          <div class="card__header">
+            <h3>Sellado</h3>
+            <span class="card-tag">Proteccion</span>
+          </div>
+          <p>Protecci&oacute;n del asfalto para extender su durabilidad y mejorar su apariencia.</p>
+          <button type="button" class="card-toggle" aria-expanded="false">Ver detalles</button>
+          <div class="card-details" hidden>
+            <p>Recomendado para prevenir filtraciones, reducir desgaste por clima y conservar el acabado por mas tiempo.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="maquinaria" class="section machinery-section" data-reveal>
+      <div class="section-heading">
+        <p class="eyebrow">Equipos disponibles</p>
+        <h2>MAQUINARIA DE ASFALTO DISPONIBLE</h2>
+        <p>Contamos con equipo moderno y bien mantenido para garantizar la máxima eficiencia en cada proyecto.</p>
+      </div>
+
+      <div class="machinery-grid">
+        <article class="machinery-item">
+          <div class="machinery-image">
+            <img src="extendedora-asfalto.png" alt="Extendedora de Asfalto VÖGELE trabajando en carretera" class="machinery-img">
+            <div class="machinery-overlay">
+              <button type="button" class="machinery-btn">Ver detalles</button>
+            </div>
+          </div>
+          <div class="machinery-content">
+            <h3>Extendedora de Asfalto</h3>
+            <span class="machinery-type">Equipo principal</span>
+            <p>Extendedora de rodillos vibratorios con capacidad para 8 toneladas, ideal para proyectos medianos y grandes.</p>
+            <div class="machinery-specs">
+              <div class="spec-item">
+                <span class="spec-label">Capacidad:</span>
+                <span class="spec-value">8 toneladas</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Ancho:</span>
+                <span class="spec-value">2.5 metros</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Disponibilidad:</span>
+                <span class="spec-value available">Inmediata</span>
+              </div>
+            </div>
+            <div class="machinery-actions">
+              <button type="button" class="btn btn-yellow machinery-quote">Cotizar alquiler</button>
+              <button type="button" class="btn btn-outline machinery-info">Más información</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="machinery-item">
+          <div class="machinery-image">
+            <img src="motoniveladora.png" alt="Motoniveladora Caterpillar 140K trabajando en obra" class="machinery-img">
+            <div class="machinery-overlay">
+              <button type="button" class="machinery-btn">Ver detalles</button>
+            </div>
+          </div>
+          <div class="machinery-content">
+            <h3>Motoniveladora</h3>
+            <span class="machinery-type">Preparación</span>
+            <p>Motoniveladora de 140 HP con sistema de control láser para perfecta nivelación de superficies.</p>
+            <div class="machinery-specs">
+              <div class="spec-item">
+                <span class="spec-label">Potencia:</span>
+                <span class="spec-value">140 HP</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Hoja:</span>
+                <span class="spec-value">3.7 metros</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Disponibilidad:</span>
+                <span class="spec-value available">Inmediata</span>
+              </div>
+            </div>
+            <div class="machinery-actions">
+              <button type="button" class="btn btn-yellow machinery-quote">Cotizar alquiler</button>
+              <button type="button" class="btn btn-outline machinery-info">Más información</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="machinery-item">
+          <div class="machinery-image">
+            <img src="camion-volquete.png" alt="Camión volquete descargando material de construcción" class="machinery-img">
+            <div class="machinery-overlay">
+              <button type="button" class="machinery-btn">Ver detalles</button>
+            </div>
+          </div>
+          <div class="machinery-content">
+            <h3>Camión Volquete</h3>
+            <span class="machinery-type">Transporte</span>
+            <p>Camión volquete de 15 toneladas con sistema hidráulico para transporte eficiente de materiales.</p>
+            <div class="machinery-specs">
+              <div class="spec-item">
+                <span class="spec-label">Capacidad:</span>
+                <span class="spec-value">15 toneladas</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Caja:</span>
+                <span class="spec-value">10 metros cúbicos</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Disponibilidad:</span>
+                <span class="spec-value available">Inmediata</span>
+              </div>
+            </div>
+            <div class="machinery-actions">
+              <button type="button" class="btn btn-yellow machinery-quote">Cotizar alquiler</button>
+              <button type="button" class="btn btn-outline machinery-info">Más información</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="machinery-item">
+          <div class="machinery-image">
+            <img src="rodillo-compactador.webp" alt="Rodillo compactador vibratorio doble tambor" class="machinery-img">
+            <div class="machinery-overlay">
+              <button type="button" class="machinery-btn">Ver detalles</button>
+            </div>
+          </div>
+          <div class="machinery-content">
+            <h3>Rodillo Compactador</h3>
+            <span class="machinery-type">Compactación</span>
+            <p>Rodillo vibratorio doble tambor con peso de 12 toneladas para compactación óptima.</p>
+            <div class="machinery-specs">
+              <div class="spec-item">
+                <span class="spec-label">Peso:</span>
+                <span class="spec-value">12 toneladas</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Ancho:</span>
+                <span class="spec-value">2.1 metros</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Disponibilidad:</span>
+                <span class="spec-value available">Inmediata</span>
+              </div>
+            </div>
+            <div class="machinery-actions">
+              <button type="button" class="btn btn-yellow machinery-quote">Cotizar alquiler</button>
+              <button type="button" class="btn btn-outline machinery-info">Más información</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="machinery-item">
+          <div class="machinery-image">
+            <img src="planta-asfaltica-movil.webp" alt="Planta asfáltica móvil produciendo mezcla" class="machinery-img">
+            <div class="machinery-overlay">
+              <button type="button" class="machinery-btn">Ver detalles</button>
+            </div>
+          </div>
+          <div class="machinery-content">
+            <h3>Planta Asfáltica Móvil</h3>
+            <span class="machinery-type">Producción</span>
+            <p>Planta asfáltica móvil con capacidad de 60 toneladas/hora, ideal para proyectos grandes.</p>
+            <div class="machinery-specs">
+              <div class="spec-item">
+                <span class="spec-label">Producción:</span>
+                <span class="spec-value">60 ton/hora</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Capacidad:</span>
+                <span class="spec-value">120 toneladas</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Disponibilidad:</span>
+                <span class="spec-value limited">Bajo pedido</span>
+              </div>
+            </div>
+            <div class="machinery-actions">
+              <button type="button" class="btn btn-yellow machinery-quote">Cotizar alquiler</button>
+              <button type="button" class="btn btn-outline machinery-info">Más información</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="machinery-item">
+          <div class="machinery-image">
+            <img src="trituradora-asfalto.jpg" alt="Trituradora de mandíbula para reciclaje de asfalto" class="machinery-img">
+            <div class="machinery-overlay">
+              <button type="button" class="machinery-btn">Ver detalles</button>
+            </div>
+          </div>
+          <div class="machinery-content">
+            <h3>Trituradora de Asfalto</h3>
+            <span class="machinery-type">Reciclaje</span>
+            <p>Trituradora de mandíbula para reciclaje de asfalto, capacidad de 50 toneladas/hora.</p>
+            <div class="machinery-specs">
+              <div class="spec-item">
+                <span class="spec-label">Capacidad:</span>
+                <span class="spec-value">50 ton/hora</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Motor:</span>
+                <span class="spec-value">200 HP</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Disponibilidad:</span>
+                <span class="spec-value available">Inmediata</span>
+              </div>
+            </div>
+            <div class="machinery-actions">
+              <button type="button" class="btn btn-yellow machinery-quote">Cotizar alquiler</button>
+              <button type="button" class="btn btn-outline machinery-info">Más información</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="machinery-features">
+        <div class="features-grid">
+          <div class="feature-item">
+            <span class="feature-icon">🔧</span>
+            <h4>Mantenimiento Preventivo</h4>
+            <p>Todos nuestros equipos reciben mantenimiento regular para garantizar operación sin fallas.</p>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">👨‍🔧</span>
+            <h4>Operadores Certificados</h4>
+            <p>Personal capacitado y certificado para operar cada tipo de maquinaria.</p>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🚛</span>
+            <h4>Transporte Incluido</h4>
+            <p>Entrega y recolección del equipo en tu obra sin costo adicional.</p>
+          </div>
+          <div class="feature-item">
+            <span class="feature-icon">🛡️</span>
+            <h4>Seguro Completo</h4>
+            <p>Todos los equipos cuentan con seguro de responsabilidad civil.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="machinery-cta">
+        <h3>¿Necesitas equipo específico?</h3>
+        <p>Contamos con más equipos disponibles. Contáctanos para consultar nuestra flota completa.</p>
+        <div class="cta-actions">
+          <a href="#formulario-cita" class="btn btn-yellow btn-large">Solicitar cotización completa</a>
+          <a href="tel:8296600113" class="btn btn-outline btn-large">Llamar ahora</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section about-section" data-reveal>
+      <div class="section-heading">
+        <p class="eyebrow">Quienes somos</p>
+        <h2>Compromiso con un trabajo firme y bien coordinado</h2>
+      </div>
+      <div class="about-grid">
+        <p>En TODO EN ASFALTO DE LEÓN combinamos experiencia en obra, respuesta comercial rapida y soluciones practicas para proyectos residenciales, comerciales y viales.</p>
+        <ul class="about-list">
+          <li>Atencion personalizada desde la primera llamada.</li>
+          <li>Evaluacion segun el estado real del pavimento.</li>
+          <li>Opciones de reparacion, asfaltado o sellado segun necesidad.</li>
+          <li>Apoyo con alquiler de maquinaria para acelerar la ejecucion.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="fundadores" class="section founders-section" data-reveal>
+      <div class="section-heading">
+        <p class="eyebrow">Liderazgo y visión</p>
+        <h2>FUNDADORES DE LA EMPRESA</h2>
+        <p>El equipo de visionarios que construyó TODO EN ASFALTO DE LEÓN con compromiso, experiencia y dedicación al servicio.</p>
+      </div>
+
+      <div class="founders-panel">
+        <div class="founders-header">
+          <div class="founders-badge">
+            <span class="founders-badge-icon">🏗️</span>
+            <span class="founders-badge-text">Fundadores</span>
+          </div>
+          <div class="founders-year">
+            <span class="year-number">2026</span>
+            <span class="year-label">Año de Fundación</span>
+          </div>
+        </div>
+
+        <div class="founders-grid">
+          <article class="founder-card">
+            <div class="founder-avatar">
+              <span>DL</span>
+            </div>
+            <div class="founder-info">
+              <h3>David D. León Piña</h3>
+              <span class="founder-role">Fundador Principal</span>
+              <p>Visionario y líder con más de 18 años de experiencia en la industria de la construcción y asfaltado.</p>
+            </div>
+            <div class="founder-quote">
+              <span>"La calidad es nuestra firma en cada proyecto"</span>
+            </div>
+          </article>
+
+          <article class="founder-card">
+            <div class="founder-avatar">
+              <span>DR</span>
+            </div>
+            <div class="founder-info">
+              <h3>Denzel Gael</h3>
+              <span class="founder-role">Co-fundador</span>
+              <p>Especialista en operaciones y logística, garantizando eficiencia y excelencia en cada obra.</p>
+            </div>
+            <div class="founder-quote">
+              <span>"Cada proyecto es un compromiso con la perfección"</span>
+            </div>
+          </article>
+
+          <article class="founder-card">
+            <div class="founder-avatar">
+              <span>RP</span>
+            </div>
+            <div class="founder-info">
+              <h3>Rayner Polanco</h3>
+              <span class="founder-role">Co-fundador</span>
+              <p>Experto en gestión de proyectos y control de calidad, asegurando estándares superiores en cada trabajo.</p>
+            </div>
+            <div class="founder-quote">
+              <span>"La excelencia no es un acto, es un hábito"</span>
+            </div>
+          </article>
+
+          <article class="founder-card">
+            <div class="founder-avatar">
+              <span>AG</span>
+            </div>
+            <div class="founder-info">
+              <h3>Angel David Guzman</h3>
+              <span class="founder-role">Co-fundador</span>
+              <p>Experto en relaciones comerciales y atención al cliente, construyendo confianza duradera.</p>
+            </div>
+            <div class="founder-quote">
+              <span>"Nuestro cliente es nuestra prioridad número uno"</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="founders-values">
+          <div class="values-grid">
+            <div class="value-item">
+              <span class="value-icon">🎯</span>
+              <h4>Misión</h4>
+              <p>Proporcionar soluciones de asfaltado de máxima calidad con servicio excepcional y resultados duraderos.</p>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">👁️</span>
+              <h4>Visión</h4>
+              <p>Ser la empresa líder en asfaltado de República Dominicana, reconocida por nuestra excelencia y confiabilidad.</p>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">💎</span>
+              <h4>Valores</h4>
+              <p>Integridad, compromiso, calidad y servicio al cliente son los pilares de nuestra empresa.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="founders-stats">
+          <div class="stat-item">
+            <span class="stat-number">18+</span>
+            <span class="stat-label">Años de Experiencia Combinada</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">320+</span>
+            <span class="stat-label">Proyectos Completados</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">98%</span>
+            <span class="stat-label">Clientes Satisfechos</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Compromiso con la Calidad</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq-section" data-reveal>
+      <div class="section-heading">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2>Respuestas rapidas antes de contactarnos</h2>
+      </div>
+
+      <div class="faq-list">
+        <article class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>&iquest;Trabajan proyectos pequenos y grandes?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Si. Podemos atender desde patios y accesos residenciales hasta trabajos mas amplios en vias o zonas de alto trafico.</p>
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>&iquest;La calculadora muestra un precio final?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>No. Es una referencia inicial para orientarte. La cotizacion final se confirma luego de revisar el area, acceso y condiciones del terreno.</p>
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>&iquest;Tambien alquilan maquinaria?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Si. Puedes indicarlo en la calculadora o en el formulario para que la propuesta contemple equipos segun el tipo de obra.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonios" class="section testimonials-section" data-reveal>
+      <div class="section-heading">
+        <p class="eyebrow">Lo que dicen nuestros clientes</p>
+        <h2>Testimonios verificables</h2>
+        <p>Conoce las experiencias de quienes han confiado en nosotros para sus proyectos de asfalto.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">
+              <span>JD</span>
+            </div>
+            <div class="testimonial-info">
+              <h4>Juan Díaz</h4>
+              <span class="testimonial-role">Gerente de Condominio</span>
+            </div>
+            <div class="testimonial-rating">
+              <span>★★★★★</span>
+            </div>
+          </div>
+          <blockquote class="testimonial-content">
+            <p>"Excelente trabajo en el asfaltado de las áreas comunes de nuestro condominio. Cumplieron los plazos y la calidad del acabado es profesional. Muy recomendados."</p>
+          </blockquote>
+          <div class="testimonial-meta">
+            <span class="testimonial-project">Proyecto: 1,200 m² de áreas comunes</span>
+            <span class="testimonial-date">Enero 2024</span>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">
+              <span>MG</span>
+            </div>
+            <div class="testimonial-info">
+              <h4>María García</h4>
+              <span class="testimonial-role">Propietaria de residencia</span>
+            </div>
+            <div class="testimonial-rating">
+              <span>★★★★★</span>
+            </div>
+          </div>
+          <blockquote class="testimonial-content">
+            <p>"Repararon completamente mi patio que tenía muchas grietas. Ahora se ve como nuevo y el trabajo duró exactamente lo que prometieron. Muy profesionales."</p>
+          </blockquote>
+          <div class="testimonial-meta">
+            <span class="testimonial-project">Proyecto: Reparación integral de patio</span>
+            <span class="testimonial-date">Diciembre 2023</span>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">
+              <span>CR</span>
+            </div>
+            <div class="testimonial-info">
+              <h4>Carlos Rodríguez</h4>
+              <span class="testimonial-role">Constructor</span>
+            </div>
+            <div class="testimonial-rating">
+              <span>★★★★★</span>
+            </div>
+          </div>
+          <blockquote class="testimonial-content">
+            <p>"Alquilé su maquinaria para un proyecto comercial y el equipo estaba en perfectas condiciones. El servicio de entrega y soporte técnico fue excepcional."</p>
+          </blockquote>
+          <div class="testimonial-meta">
+            <span class="testimonial-project">Proyecto: Alquiler de maquinaria pesada</span>
+            <span class="testimonial-date">Noviembre 2023</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="testimonials-stats">
+        <div class="stat-item">
+          <span class="stat-number">98%</span>
+          <span class="stat-label">Clientes satisfechos</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">4.9/5</span>
+          <span class="stat-label">Calificación promedio</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">150+</span>
+          <span class="stat-label">Testimonios verificados</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section gallery-section" data-reveal>
+      <div class="section-heading">
+        <p class="eyebrow">Nuestro trabajo en acción</p>
+        <h2>Galería de proyectos completados</h2>
+        <p>Explora algunos de nuestros trabajos más recientes y la calidad que garantizamos en cada proyecto.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-category="asfaltado">
+          <div class="gallery-image">
+            <div class="gallery-placeholder">
+              <span>🏗️</span>
+            </div>
+          </div>
+          <div class="gallery-overlay">
+            <h4>Asfaltado Comercial</h4>
+            <p>Centro comercial - 2,500 m²</p>
+            <span class="gallery-tag">Asfaltado</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="reparacion">
+          <div class="gallery-image">
+            <div class="gallery-placeholder">
+              <span>🔧</span>
+            </div>
+          </div>
+          <div class="gallery-overlay">
+            <h4>Reparación Vial</h4>
+            <p>Calle principal - 800 m² reparados</p>
+            <span class="gallery-tag">Reparación</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="residencial">
+          <div class="gallery-image">
+            <div class="gallery-placeholder">
+              <span>🏠</span>
+            </div>
+          </div>
+          <div class="gallery-overlay">
+            <h4>Residencial Premium</h4>
+            <p>Urbanización - 5,000 m²</p>
+            <span class="gallery-tag">Residencial</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="sellado">
+          <div class="gallery-image">
+            <div class="gallery-placeholder">
+              <span>🛡️</span>
+            </div>
+          </div>
+          <div class="gallery-overlay">
+            <h4>Sellado Protector</h4>
+            <p>Parqueadero industrial - 1,200 m²</p>
+            <span class="gallery-tag">Sellado</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="maquinaria">
+          <div class="gallery-image">
+            <div class="gallery-placeholder">
+              <span>🚜</span>
+            </div>
+          </div>
+          <div class="gallery-overlay">
+            <h4>Equipos en Acción</h4>
+            <p>Maquinaria pesada operando</p>
+            <span class="gallery-tag">Maquinaria</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="proceso">
+          <div class="gallery-image">
+            <div class="gallery-placeholder">
+              <span>⚡</span>
+            </div>
+          </div>
+          <div class="gallery-overlay">
+            <h4>Proceso de Trabajo</h4>
+            <p>Aplicación profesional de asfalto</p>
+            <span class="gallery-tag">Proceso</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-filters">
+        <button type="button" class="filter-btn active" data-filter="all">Todos</button>
+        <button type="button" class="filter-btn" data-filter="asfaltado">Asfaltado</button>
+        <button type="button" class="filter-btn" data-filter="reparacion">Reparación</button>
+        <button type="button" class="filter-btn" data-filter="residencial">Residencial</button>
+        <button type="button" class="filter-btn" data-filter="sellado">Sellado</button>
+        <button type="button" class="filter-btn" data-filter="maquinaria">Maquinaria</button>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section" data-reveal>
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2>Hablemos de tu proyecto</h2>
+        <p>Llama o escribe y te ayudamos a definir el siguiente paso para tu obra.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-actions">
+          <a href="tel:8296600113" class="contact-card">
+            <span class="contact-label">Teléfono Principal</span>
+            <strong>829 660 0113</strong>
+            <small>Lunes a Sábado 8:00 AM - 6:00 PM</small>
+          </a>
+          <a href="tel:8095550123" class="contact-card">
+            <span class="contact-label">Teléfono Secundario</span>
+            <strong>809 555 0123</strong>
+            <small>Emergencias 24/7</small>
+          </a>
+          <a href="mailto:juanjuliodeleon30@gmail.com" class="contact-card">
+            <span class="contact-label">Email Principal</span>
+            <strong>juanjuliodeleon30@gmail.com</strong>
+            <small>Respuesta en 24 horas</small>
+          </a>
+          <a href="mailto:daviddeleonpina@gmail.com" class="contact-card">
+            <span class="contact-label">Email Corporativo</span>
+            <strong>daviddeleonpina@gmail.com</strong>
+            <small>Cotizaciones rápidas</small>
+          </a>
+        </div>
+        
+        <div class="contact-map">
+          <div class="map-container">
+            <div class="map-placeholder">
+              <div class="map-icon">📍</div>
+              <h4>Ubicación Principal</h4>
+              <p>Santo Domingo Norte<br>República Dominicana</p>
+              <div class="map-info">
+                <p><strong>Horario de atención:</strong></p>
+                <p>Lunes a Viernes: 8:00 AM - 6:00 PM</p>
+                <p>Sábados: 8:00 AM - 2:00 PM</p>
+                <p>Domingos: Cerrado</p>
+                <p class="emergency-contact"><strong>Emergencias:</strong> 809 555 0123</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-certifications">
+        <h3>Certificaciones y Garantías</h3>
+        <div class="certifications-grid">
+          <div class="certification-item">
+            <span class="cert-icon">🏆</span>
+            <h4>Calidad Aprobada</h4>
+            <p>Materiales certificados por normas internacionales</p>
+          </div>
+          <div class="certification-item">
+            <span class="cert-icon">🛡️</span>
+            <h4>Garantía Extendida</h4>
+            <p>2 años de garantía en trabajos de asfaltado</p>
+          </div>
+          <div class="certification-item">
+            <span class="cert-icon">📋</span>
+            <h4>Licencia Municipal</h4>
+            <p>Completamente licenciado y asegurado</p>
+          </div>
+          <div class="certification-item">
+            <span class="cert-icon">🔒</span>
+            <h4>Seguro de Responsabilidad</h4>
+            <p>Cobertura completa para todos nuestros proyectos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="current-year">2026</span> TODO EN ASFALTO DE LEON - Todos los derechos reservados</p>
+  </footer>
+
+  <button type="button" class="back-to-top" aria-label="Volver arriba">Subir</button>
+
+  <script src="script.js" defer></script>
+<script>
+// Registro del Service Worker para PWA
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then((registration) => {
+        console.log('Service Worker registrado con éxito:', registration);
+        
+        // Verificar actualizaciones
+        registration.addEventListener('updatefound', () => {
+          const newWorker = registration.installing;
+          newWorker.addEventListener('statechange', () => {
+            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+              // Mostrar notificación de actualización
+              if (confirm('Hay una nueva versión disponible. ¿Deseas actualizar ahora?')) {
+                window.location.reload();
+              }
+            }
+          });
+        });
+      })
+      .catch((error) => {
+        console.log('Error al registrar el Service Worker:', error);
+      });
+  });
+}
+
+// Manejo de instalación de PWA
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+  
+  // Mostrar botón de instalación (opcional)
+  const installButton = document.createElement('button');
+  installButton.textContent = '📱 Instalar App';
+  installButton.style.cssText = `
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: #ffd600;
+    color: #050505;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+  `;
+  
+  installButton.addEventListener('click', () => {
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('Usuario aceptó la instalación');
+      }
+      deferredPrompt = null;
+      installButton.remove();
+    });
+  });
+  
+  document.body.appendChild(installButton);
+  
+  // Ocultar botón después de 10 segundos
+  setTimeout(() => {
+    if (installButton.parentNode) {
+      installButton.remove();
+    }
+  }, 10000);
+});
+
+// Detectar si está corriendo como PWA
+window.addEventListener('appinstalled', () => {
+  console.log('PWA instalada exitosamente');
+  
+  // Ocultar botón de instalación si existe
+  const installButton = document.querySelector('button[textContent*="Instalar"]');
+  if (installButton) {
+    installButton.remove();
+  }
+});
+</script>
+</body>
+</html>

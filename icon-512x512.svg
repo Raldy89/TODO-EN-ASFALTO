@@ -1,0 +1,12 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#050505"/>
+  <rect x="8" y="8" width="496" height="496" fill="#ffd600" rx="64"/>
+  <text x="256" y="256" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="128" font-weight="bold" fill="#050505">
+    AL
+  </text>
+  <text x="256" y="380" text-anchor="middle" dominant-baseline="middle" 
+        font-family="Arial, sans-serif" font-size="42" font-weight="normal" fill="#050505">
+    ASFALTO
+  </text>
+</svg>
